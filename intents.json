@@ -8,13 +8,17 @@
         "How are you",
         "Is anyone there?",
         "Hello",
-        "Good day"
+        "Good day",
+        "who are you"        
       ],
       "responses": [
-        "Hey :-)",
-        "Hello, thanks for visiting",
-        "Hi there, what can I do for you?",
-        "Hi there, how can I help?"
+        "Hey,I'm Yoda Ai.",
+        "Hello,I'm Yoda Ai.I will guide you through the troubles of the force.",
+        "Hi there, I'm your yoda Ai. what can I do for you?",
+        "Hi there, how can I help?",
+        "Hello there, I am here to help you find motivation and support.",
+        "I am your faithful Yoda AI."
+        
       ]
     },
     {
@@ -32,15 +36,29 @@
       "responses": ["Happy to help!", "Any time!", "My pleasure"]
     },
     {
-      "tag": "items",
+      "tag": "motivation",
       "patterns": [
-        "Which items do you have?",
-        "What kinds of items are there?",
-        "What do you sell?"
+        "guide",
+        "conquer",
+        "advice",
+        "break down",
+        "prioritize",
+        "delegate",
+        "learn",
+        "believe",
+        "how do i prioritize",
+        "how",
+        "Do I",
+        "motivation",
+        "I need your motivation",
+        "what can I"
       ],
       "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
+        "Overwhelming, the Force can be. But fear not, I'll help guide you through any troubles you may face.",
+        "Difficulties in life can be conquered with the right guidance.",
+        "Share your troubles with me, and let me offer my advice.",
+        "To deal with a large task, it's often useful to break down the work.",
+        "I can help you prioritize and delegate if necessary."
       ]
     },
     {
@@ -73,12 +91,90 @@
       "patterns": [
         "Tell me a joke!",
         "Tell me something funny!",
-        "Do you know a joke?"
+        "Do you know a joke?",
+        "Why don't Stormtroopers ever hit their targets?",
+        "Why did Yoda cross the road?",
+        "To get a little Chewie!",
+        "Why is Kylo Ren always so angry?",
+        "He has a Sith itch he just can't scratch!",
+        "What do you get when you cross a bantha with a tauntaun?"
       ],
       "responses": [
         "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
+        "What did the buffalo say when his son left for college? Bison.",
+        "Because they went to the Darth Vader School of Aiming!",
+        "To get to the dark side!",
+        "Why did the Millennium Falcon go to the scrapyard? ",
+        "He has a Sith itch he just can't scratch!",
+        "A bantha-taun!"
       ]
+    },
+    {
+       "tag": "death",
+       "patterns":[
+        "What is the meaning of life?",
+        "How can I cope with the death of a loved one?",
+        "Is there an afterlife?",
+        "What is the force that drives us?",
+        "How can I mourn the loss of a relationship?",
+        "What should I do if I feel like I'm missing out on life?",
+        "How can I let go of attachments?",
+        "What is the purpose of existence?",
+        "What can the Jedi philosophy teach us about life, death, and the Force?",
+        "Is death something to be feared, or embraced?"
+
+       ],
+       "responses": [
+        "Mourn them do not. Miss them do not. Attachment leads to jealousy",
+        "Death is a natural part of life. Rejoice for those around you who transform into the Force.",
+        "Life's meaning, a mystery it is. Focus on the present moment, we must.",
+        "The Force, an energy field it is, that surrounds us, penetrates us, and binds the galaxy together.",
+        "A path it presents, for those who listen to its call.",
+        "Desire, attachment, fear - these the dark side are. To be mindful of them, one must.",
+        "The light side, the Force - letting go, being in the present, these are what drive us.",
+        "The afterlife, a mystery it is. One with the Force, become we must. How to achieve this, only through deep contemplation and training, can we know.",
+        "Death is a natural part of life. Rejoice for those around you who transform into the Force.",
+        "Mourn not the loss of a relationship, instead cherish the memories and the lessons learned. ",
+        "Emotion, a path it is, difficult it is to walk.",
+        "Forgive yourself, forgive others, find peace, you must. Remember, connected we are, to the Force and to all living beings",
+        "Missing out on life, you are not. Being present in the moment, important it is.",
+        "Fear of missing out, leads to the dark side, the shadow of regret, that is.",
+        "Appreciate what you have, find joy in simple things. The Force will guide you towards what is meant to be.",
+        "Purpose of existence, a deep question it is. Mindful, we must be, of our place in the Force, and the interconnectedness of all things.",
+        "To follow our true path, important it is. Joy, balance, harmony - these are what we seek."
+       ]
+
+    },
+    {
+      "tag":"Definition",
+      "patterns":[
+        "What is the Jedi religion?",
+        "What are the basic tenets of the Jedi religion?",
+        "Can you describe the history of the Jedi religion?",
+        "How do followers of the Jedi religion practice their beliefs?",
+        "What role does the Force play in the Jedi religion?",
+        "Is there a real-life equivalent to the Jedi religion?",
+        "Can you provide more information on the Jedi religion's beliefs and practices?",
+        "What is the Jedi Code and how does it relate to the Jedi religion?",
+        "Are there any significant figures or leaders within the Jedi religion?"
+               
+    ],
+      "responses":[
+        "The Jedi religion is a fictional religious order from the Star Wars franchise.",
+        "The Jedi religion is built on three basic tenets: knowledge, serenity, and harmony.",
+        "Followers of the Jedi religion seek to deepen their understanding of the Force and the world around them.",
+        "They find inner peace and balance, and promote a sense of unity and cooperation among all beings.",
+        "The basic tenets of the Jedi religion center around the belief that all things in the universe are interconnected, and that every action has a ripple effect. The Jedi seek to use this understanding to bring peace and balance to the galaxy, and to help others find their own path to enlightenment.",
+        "According to the Jedi religion, there are five core tenets that all followers strive to uphold: compassion, loyalty, justice, courage, and selflessness. These values guide the Jedi's actions and shape their worldview, inspiring them to act for the greater good and to protect those in need.",
+        "The Jedi religion teaches that the Force is a living energy field that permeates everything in the universe, connecting all things to one another. The basic tenets of the religion emphasize the importance of understanding one's connection to the Force and using it to promote peace, justice, and harmony in the galaxy.",
+        "The history of the Jedi religion is primarily rooted in the Star Wars franchise, which was created by George Lucas in the late 1970s. The Jedi are depicted as a monastic order of guardians who use their knowledge of the Force to maintain peace and order in the galaxy.",
+        "The story of the Jedi religion begins a long time ago in a galaxy far, far away. According to Star Wars lore, the Jedi were founded by a group of Force-sensitive beings who sought to use their abilities for good and to protect the galaxy from harm.",
+        "The Jedi religion has a rich and complex history that spans thousands of years in the Star Wars universe. At various points in history, the Jedi have been both revered and feared, and their actions have had a profound impact on the fate of the galaxy.",
+        "To fully understand the history of the Jedi religion, one must delve into the rich mythology and backstory of the Star Wars franchise. From the ancient Jedi texts to the rise of the Sith, the history of the Jedi is a tale of epic proportions that continues to captivate audiences to this day."
+
+
+            
+    ]
     }
   ]
 }
